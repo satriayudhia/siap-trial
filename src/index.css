@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  font-family: "Avenir";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Avenir";
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: local("Avenir"),
+    url(./assets/fonts/Metropolis-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: local("Nunito"),
+    url(./assets/fonts/Nunito-Regular.ttf) format("truetype");
+}
